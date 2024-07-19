@@ -1,0 +1,425 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+header {
+  background-color: #183e6b;
+}
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 35px;
+}
+.header-logo img {
+  width: 170px;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  color: #ffffff;
+  letter-spacing: 0.48px;
+  font-weight: 600;
+  gap: 65px;
+}
+.apply-button a button {
+  background-color: #39c5f3;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 6px;
+  text-transform: capitalize;
+  padding: 16px 32px 15px;
+  color: #ffffff;
+  border: 0;
+}
+
+.category-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.category-title-up {
+  font-size: 24px;
+  color: #183e6b;
+  font-weight: 700;
+}
+.category-title-down {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 11px;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 14px;
+  box-shadow: 11px 15px 30px 0 rgba(128, 137, 225, 0.1);
+  padding-bottom: 75px;
+  background-image: url(/assets/image/category-shape.webp);
+  margin-bottom: 70px;
+
+  position: relative;
+  margin-right: 45px;
+  border: 1px solid #e0e3fd;
+  padding-top: 60px;
+  width: 285px; /* todo with vermek dogrudu ?  */
+}
+.card-flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+.card-absolute img {
+  position: absolute;
+  width: 80px;
+  border-radius: 50%;
+  bottom: 139px;
+  right: 107px;
+}
+.card-img {
+  width: 80%;
+}
+.card-img img {
+  width: 100%;
+}
+.card-title {
+  font-size: 20px;
+  color: #2a254d;
+  font-weight: 700;
+}
+
+.hero {
+  background-image: url(/assets/image/banner-bg-1.webp);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-color: #183e6b;
+  padding: 100px 0 92px;
+}
+.align-center {
+  align-items: center;
+}
+.hero-left {
+  display: flex;
+  flex-direction: column;
+
+  color: #ffffff;
+}
+.hero-title h1 {
+  font-size: 70px;
+  margin-bottom: 12px;
+}
+.hero-text p {
+  line-height: 32px;
+  margin-bottom: 30px;
+}
+.hero-btns {
+  display: flex;
+  gap: 30px;
+}
+.primary-btn button {
+  padding: 16px 32px 15px;
+  background-color: #39c5f3;
+  border-radius: 6px;
+  border: 0;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.direction-btn button {
+  padding: 16px 32px 15px;
+  border-radius: 6px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 18px;
+}
+.hero-right {
+  position: relative;
+}
+.direction-btn button i,
+.primary-btn button i {
+  margin-left: 10px;
+}
+.hero-img {
+  padding: 50px;
+  background: linear-gradient(147deg, #ff7200 0, #6a78ff 100%);
+  box-shadow: 27px 27px 52px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 50%;
+}
+.hero-img img {
+  width: 100%;
+  border-radius: 50%;
+}
+.hero-abs img {
+  width: 49px;
+  height: 49px;
+}
+
+.about {
+  padding: 90px 0 120px;
+}
+.about-left {
+  position: relative;
+}
+.about-img img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.contact-div {
+  width: 350px;
+  border-radius: 14px;
+  background-color: #ffffff;
+  box-shadow: -18px 11px 52px 0 rgba(0, 0, 0, 0.08);
+  position: absolute;
+  padding: 28px 30px 33px 59px;
+  bottom: 40px;
+  left: -24px;
+}
+.contact-icon {
+  position: absolute;
+  left: -37px;
+  bottom: 14px;
+}
+.contact-icon i {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  font-size: 38px;
+  color: #ffffff;
+  background-color: #39c5f3;
+  text-align: center;
+  line-height: 76px;
+}
+
+.about-right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-left: 40px;
+}
+.about-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.about-card {
+  padding: 2px;
+  border-radius: 24px;
+  background: linear-gradient(
+    180deg,
+    rgba(57, 197, 243, 1) 0,
+    rgba(57, 197, 243, 0.15) 100%
+  );
+}
+.about-card-bg {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 18px 30px 23px;
+  border-radius: 24px;
+  background-color: #ffffff;
+}
+.about-card-icon i {
+  background: rgba(128, 137, 225, 0.12);
+  font-size: 38px;
+  margin-right: 20px;
+  border-radius: 22px;
+  padding: 25px;
+}
+.courses {
+  background-image: url(/assets/image/course-bg-1.webp);
+  background-color: #f1f2fd;
+  background-size: cover;
+  margin: 150px 0;
+  padding-bottom: 80px;
+}
+.courses-title h5 {
+  text-align: center;
+  font-size: 24px;
+  color: #183e6b;
+  margin-bottom: 250px;
+  padding-top: 70px;
+}
+.course-box {
+  display: flex;
+  flex-direction: column;
+  padding: 28px 30px 30px;
+  box-shadow: 11px 15px 30px 0 rgba(128, 137, 225, 0.1);
+  position: relative;
+  border: 1px solid #e0e3fd;
+  margin-right: 35px;
+  border-radius: 14px;
+  background-color: #ffffff;
+}
+.course-author {
+  display: flex;
+  gap: 15px;
+  padding: 14px 19px 15px;
+  background-color: #f1f2fd;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+.course-abs {
+  width: 246px;
+  height: 248px;
+  position: absolute;
+  top: -160px;
+  right: 0;
+  background: linear-gradient(147deg, #e4e4e4 0, rgba(255, 255, 255, 0) 100%);
+  border-radius: 50%;
+  padding: 10px;
+}
+.course-abs img {
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.feedback {
+  padding: 115px 0 218px;
+}
+.quote {
+  color: #39c5f3;
+  font-size: 32px;
+  margin-bottom: 10pxr;
+}
+.feedback-text p {
+  color: #697585;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.feedback-author {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.fb-author-name-specialty p {
+  color: #697585;
+  font-weight: 400;
+}
+.fb-author-name-specialty h5 {
+  font-size: 20px;
+}
+
+.author-img img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.team {
+  background-image: url(/assets/image/team-bg-1.webp);
+  background-position: center;
+  padding-bottom: 170px;
+  /* background-color: #f1f2fd; */ /*todo reng veren kimi goy absolute lar itir niye */
+}
+.title-up h5 {
+  /* todo niye h5 vermiyende h5 e value lar vermir? elementi cagirmasa bele child elemente verilen value verilmelidi */
+  color: #183e6b;
+  font-size: 24px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.title-down h2 {
+  color: #2a254d;
+  font-size: 30px;
+  text-align: center;
+}
+.team-member {
+  overflow: hidden;
+  position: relative;
+  padding: 25px;
+  margin-right: 45px;
+}
+.team-member img {
+  width: 100%;
+  border-radius: 200px;
+  display: block; /* todo niye block verende tam oturur divin icine?? */
+}
+.team-member::before {
+  content: " ";
+  height: 350px;
+  background-color: #39c5f3;
+  position: absolute;
+  z-index: -1; /* todo -1 vermisem deye bg seklin xetleri goy rengin ustune cixib nece fix edim? */
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 0 200px 200px;
+}
+
+.blog {
+  margin: 120px 0 90px;
+}
+.blog-card {
+  border-radius: 14px;
+  box-shadow: 11px 15px 30px 0 rgba(128, 137, 225, 0.1);
+  overflow: hidden;
+  margin: 0 0 30px;
+}
+.author-about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f1f2fd;
+  padding: 12px 20px;
+  border-radius: 6px;
+}
+.author-date span {
+  color: #39c5f3;
+  font-weight: 600;
+}
+.blog-author {
+  display: flex;
+  gap: 15px;
+}
+.blog-card-info {
+  padding: 0 30px;
+}
+.blog-card-img img {
+  display: block;
+}
+.blog-card-title {
+  margin: 15px 0;
+  font-size: 40px;
+  color: #2a254d;
+}
+.blog-card-top a {
+  background-color: #183e6b;
+  border-radius: 5px;
+  padding: 0px 11px;
+  font-weight: 600;
+}
+
+.partner-img {
+  border: 1px solid #e0e3fd;
+  background-color: #ffffff;
+  border-radius: 14px;
+  margin: 45px 40px 0 0;
+}
+.partner-img img {
+  width: 100%;
+}
+
+footer {
+  background-color: #1f1944;
+  padding: 7px 0;
+  margin-top: 50px;
+}
+.copyright p {
+  color: #b3ade1;
+  font-weight: 400;
+}
+.footer-icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  color: #f57005;
+  font-size: x-large;
+}

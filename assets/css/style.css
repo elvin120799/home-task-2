@@ -1,0 +1,164 @@
+/* ! header start */
+header {
+    padding: 20px 0;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.header-left img {
+    width: 99px;
+    height: 89px;
+}
+.header-right-logo {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 26px;
+}
+.header-right-logo span {
+    padding: 2px 10px 5px 10px;
+    border-radius: 4px;
+    background-color: #fae9ac;
+}
+.header-right-logo span img {
+    width: 29px;
+    height: 23px;
+}
+.header-right nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 60px;
+}
+.header-right .active {
+   color: #01a1d1; 
+}
+/* ! header end */
+/* ! slider start */
+#slider {
+    background-image: url(/assets/image/slider/grID21-img93.jpg);
+    padding: 170px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 60px;
+}
+#slider h2,p {
+    color: white;
+    text-align: center;
+}
+#slider h2 {
+    margin-bottom: 30px;
+}
+.primary-button button {
+    color: #fff;
+    background-color: #01a1d1;
+    padding: 17px 50px;
+    border-radius: 0.625rem;
+    border: none;
+}
+#slider .primary-button i {
+    margin-left: 10px;
+}
+/* ! slider end */
+/* ! tours start */
+#tours .card {
+    margin-top: 40px;
+    margin-right: 35px;
+}
+#tours .title {
+    text-align: center;
+    font-size: 36px;
+    color: #01a1d1;;
+    margin-bottom: 50px;
+}
+#tours form {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+#tours .tour-select {
+    width: 250px;
+    height: 50px;
+    text-indent: 20px;
+    border: solid 1px #cccccc;
+    color: #aaa;
+}
+#tours .tour-img img {
+    width: 100%;
+    border-radius: 0.625rem;
+}
+#tours .tour-info {
+    position: relative;
+}
+#tours .tour-title {
+    height: 3.375rem;
+    overflow: hidden;
+ margin: 10px 0 15px 0;
+}
+#tours .tour-title h3 {
+    font-size: 24px;
+    /* text-overflow: ellipsis; */   /*todo noqteli overflow lazimdi */
+}
+#tours .tour-more a {
+    border-radius: 1.0625rem;
+    padding: 0.1875rem 1.6875rem 0.3125rem 1.625rem;
+    border: solid 0.0625rem #01a1d1;
+    text-decoration: none;
+    color: #01a1d1;
+}
+#tours .tour-abs {
+    position: absolute;
+    right: 25px;
+    top: -39px;
+    background: #ff9ff3;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+}
+#tours .all-tours {
+    color: #01a1d1;
+    text-align: right;
+}
+#tours .all-tours i {
+    margin-left: 5px;
+    font-size: 10px;
+}
+/* ! tours end */
+/* ! your tour start */
+#your-tour {
+    background-image: url(/assets/image/our-tour/geo-map.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+    text-align: center;
+}
+/* ! your tour end */
+/* ! customer start */
+#customer-feedback .customer {
+    box-shadow: 0 6px 12px rgb(37 84 92 / 8%);
+    border-radius: 20px;
+    margin-right: 55px;
+    padding: 24px;
+}
+#customer-feedback .title h2 {
+   margin: 70px 0 30px 0;
+    text-align: center;
+}
+#customer-feedback .customer-author {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#customer-feedback .customer-logo img {
+    width: 70px;
+    height: 70px;
+}
+#customer-feedback .name span {
+    background-color: rgba(255, 193, 7, 0.4);
+}
+/* ! customer end */
